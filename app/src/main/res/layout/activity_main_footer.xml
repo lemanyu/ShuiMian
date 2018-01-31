@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:background="@android:color/white"
+        android:id="@+id/rgMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_heightPercent="13%w">
+        <RadioButton
+            android:id="@+id/rbSleep"
+            android:drawableTop="@drawable/sleep_selector"
+            style="@style/footbar_rb_style"
+            android:text="睡眠" />
+        <RadioButton
+            android:id="@+id/rbReport"
+            android:drawableTop="@drawable/report_selector"
+            style="@style/footbar_rb_style"
+            android:text="报告" />
+    </RadioGroup>
+
+</com.zhy.android.percent.support.PercentLinearLayout>
